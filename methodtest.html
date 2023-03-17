@@ -1,12 +1,41 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="CSS/method.css">
     <title>Methods</title>
 </head>
 <body>
+<form id="form" method="get" enctype="application/x-www-form-urlencoded" action="https://httpbin.org/get">
 
-<script src="JS/ButtonCount.js"></script>
+    <label for="id">ID:</label>
+    <input type="number" name="id" id="id" required>
+    <br>
+    <label for="article">Article Name:</label>
+    <input type="text" name="name" id="article" required>
+    <br>
+    <label for="articleBox">Article Body:</label>
+    <textarea id="articleBox" name="articleBody" rows="4" required></textarea>
+
+    <fieldset id="requestMethod">
+        <legend>Request Method:</legend>
+        <label for="XML">XML:</label>
+        <input type="radio" id="XML" name="requestSelect" checked>
+        <label for="Fetch">Fetch:</label>
+        <input type="radio" id="Fetch" name="requestSelect">
+    </fieldset>
+
+    <div class="buttons">
+        <button id="postBtn" value="POST">POST</button>
+        <button id="getBtn" value="GET">GET</button>
+        <button id="putBtn" value="PUT">GET</button>
+        <button id="deleteBtn" value="DELETE">DELETE</button>
+    </div>
+
+</form>
+<output id="response" style="white-space: pre"></output>
+
 </body>
 </html>

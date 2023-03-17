@@ -1,0 +1,16 @@
+*{
+    margin: 20px 10px;
+}
+
+#form{
+    margin: 10% 20%;
+    background-color: deepskyblue;
+}
+button{
+    font-weight: bold;
+    margin-left: 5%;
+}
+.buttons{
+    margin-left: 25%;
+
+}
