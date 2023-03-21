@@ -1,6 +1,4 @@
 # Links:
-- **[Nativedialog](https://thriving-starburst-00529a.netlify.app/nativedialog.html)**
-- **[Customdialog](https://thriving-starburst-00529a.netlify.app/customdialog.html)**
-- **[Crud](https://thriving-starburst-00529a.netlify.app/crud.html)**
-- **[DOMPurify](https://cdnjs.com/libraries/dompurify)**
-- **[Bootstrap](https://getbootstrap.com/)**
+### cse134-hw5: [Portfolio](https://visionary-manatee-047aaa.netlify.app/)
+### cse134-hw5: [Part 1](https://visionary-manatee-047aaa.netlify.app/methodtest.html)
+### cse134-hw5: [Part 2](https://visionary-manatee-047aaa.netlify.app/webcomponent.html)
